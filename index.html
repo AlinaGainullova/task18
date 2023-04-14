@@ -48,11 +48,9 @@
 <section class="dark_block">
     <div class="container container_dark">
             <div class="container_photo_title"> 
-                <ul class="photo_title">
-                    <li class="photo title_item" id="photo_title_first">Rostov-on-Don, Admiral</li>
-                    <li class="photo title_item">Sochi Thieves</li>
-                    <li class="photo title_item">Rostov-on-Don Patriotic</li>
-                </ul> 
+                    <div class="photo_title_item" id="photo_title_first">Rostov-on-Don, Admiral</div>
+                    <div class="photo_title_item">Sochi Thieves</div>
+                    <div class="photo_title_item">Rostov-on-Don Patriotic</div>
             </div>
             <div class="container_completed_projects_and_photo">
                 <div class="container container_completed_projects">
@@ -95,7 +93,9 @@
         </div>
         <h4>online control</h4>
         <div class="online_control">
+            <img class="img_rectangle" src="image/Rectangle 6.7.svg" alt="camera">
             <img class="img_camera" src="image/camera.svg" alt="camera">
+            <img class="img_rectangle" src="image/Rectangle 6.8.svg" alt="camera">
         </div>
     </div>
 </section>
@@ -105,8 +105,8 @@
             <div class="container video-icon">
                 <img class="video_icon" src="image/video.svg" alt="video_icon">
             </div>
-            <div class="img-overlay overlay_mob"></div>
-            </div>
+            <div class="img-overlay"></div>
+        </div>
             <div class="delimeter">
                 <span></span>
             </div>
@@ -211,22 +211,22 @@
         <div class="container_measurer">
             <div class="first_block_measurer"> 
                 <div class="container_pozitions">
-                <div class="pozitions">
-                    <img class="img_numbers" src="image/1.svg" alt="1">
-                    <p class="text_pozition">Our specialist will arrive for measurements per day contact, or appoint a date convenient for you</p>
-                 </div>
-                 <div class="pozitions">
-                    <img class="img_numbers" src="image/2.svg" alt="2">
-                    <p class="text_pozition">Free metering</p>
-                 </div>
-                 <div class="pozitions">
-                    <img class="img_numbers" src="image/3.svg" alt="3">
-                    <p class="text_pozition">Free consultation</p>
-                 </div>
-                 <div class="pozitions">
-                    <img class="img_numbers" src="image/4.svg" alt="4">
-                    <p class="text_pozition">Get a cost estimate and <br> the timing of your future repairs</p>
-                 </div>
+                    <div class="pozitions">
+                        <img class="img_numbers" src="image/1.svg" alt="1">
+                        <p class="text_pozition">Our specialist will arrive for measurements per day contact, or appoint a date convenient for you</p>
+                    </div>
+                    <div class="pozitions">
+                        <img class="img_numbers" src="image/2.svg" alt="2">
+                        <p class="text_pozition">Free metering</p>
+                    </div>
+                    <div class="pozitions">
+                        <img class="img_numbers" src="image/3.svg" alt="3">
+                        <p class="text_pozition">Free consultation</p>
+                    </div>
+                    <div class="pozitions">
+                        <img class="img_numbers" src="image/4.svg" alt="4">
+                        <p class="text_pozition">Get a cost estimate and <br> the timing of your future repairs</p>
+                    </div>
                 </div> 
             </div>
             <div class="second_block_measurer"> 
@@ -258,7 +258,10 @@
             </div>
         </div>
         <div class="pig_container">
-            <img class="img_pig" src="image/pig_in_circle.svg" alt="pig_in_circle">
+            <div class="pig_icon">
+                <img class="img_pig" src="image/pig.svg" alt="pig_in_circle">
+                <img class="img_circle" src="image/Ellipse.svg" alt="pig_in_circle">
+            </div>
             <p class="text_pig">Help save 10 - 20% of the <br> cost of materials</p>
         </div>
     </div>
@@ -288,12 +291,12 @@
                     </ul>
                 </div>
                 <div class="column_two">
-                    <img class="img_clock" src="image/oclock.png" alt="clock">
-                    <img class="img_tv" src="image/tv.png" alt="tv">
+                    <img class="img_col" src="image/oclock.png" alt="clock">
+                    <img class="img_col" src="image/tv.png" alt="tv">
                 </div>
                 <div class="column_three">
-                    <img class="img_sofa" src="image/sofa.png" alt="sofa">
-                    <img class="img_table" src="image/table.png" alt="table">
+                    <img class="img_col" src="image/sofa.png" alt="sofa">
+                    <img class="img_col" src="image/table.png" alt="table">
                 </div>
             </div>    
             <div class="img-overlay overlay_mob"></div>
@@ -304,7 +307,11 @@
     <div class="container">
         <h5>TYPES OF REPAIR</h5>
         <div class="our_clients">
-            <img class="img_hands" src="image/hands.svg" alt="hands">
+            <div class="online_control">
+                <img class="img_rectangle" src="image/Rectangle 6.7.svg" alt="hands">
+                <img class="img_hands" src="image/hands.svg" alt="hands">
+                <img class="img_rectangle" src="image/Rectangle 6.8.svg" alt="hands">
+            </div>
             <p class="text_our_clients">80% of our customers recommend us to their <br> friends and family.</p>
         </div>
         <div class="clients_block">
@@ -373,8 +380,12 @@
                         <label for="inputPhone_3" class="label_second_block">Phone</label>
                         <input type="tel" id="inputPhone_3" placeholder="Your phone number:" class="form-control second_form questions">
                     </div>
+                    <div class="form-group-second form_mob">
+                        <label for="q_form" class="label_second_block">Question</label>
+                        <input type="text" id="q_form" placeholder="I want to know:" class="form-control second_form questions" >
+                    </div>
                 </div>
-                <div class="form-group-second">
+                <div class="form-group-second form_desk">
                     <label for="q_form" class="label_second_block">Question</label>
                     <input type="text" id="q_form" placeholder="I want to know:" class="form-control second_form questions" >
                 </div>

@@ -1,1 +1,9 @@
-<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200.2 13.28"><defs><style>.cls-1,.cls-2{fill-opacity:0.3;}.cls-2,.cls-4{fill:#fff;}.cls-3{fill-opacity:0.3;}</style></defs><title>arrows</title><rect class="cls-1" x="95.19" y="1.85" width="9.82" height="9.57" rx="4.78" ry="4.78"/><rect class="cls-2" x="61.44" y="1.71" width="9.82" height="9.57" rx="4.78" ry="4.78"/><rect class="cls-3" x="128.93" y="1.85" width="9.82" height="9.57" rx="4.78" ry="4.78"/><path class="cls-4" d="M195.11,1l6.81,6.64-6.81,6.64-1-.95L200,7.67,194.13,2Z" transform="translate(-1.72 -1.03)"/><path class="cls-4" d="M200.1,8.34H158.52V7H200.1Z" transform="translate(-1.72 -1.03)"/><path class="cls-4" d="M9.51,2,3.67,7.67l5.84,5.69-1,.95L1.72,7.67,8.54,1Z" transform="translate(-1.72 -1.03)"/><path class="cls-4" d="M3.54,7H45.12V8.34H3.54Z" transform="translate(-1.72 -1.03)"/></svg>
+<svg width="206" height="14" viewBox="0 0 206 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M199.045 0L205.683 6.63804L199.045 13.2761L198.098 12.3285L203.788 6.63804L198.098 0.947567L199.045 0Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M204.736 7.30784L164.228 7.30784L164.228 5.96777L204.736 5.96778L204.736 7.30784Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6.63807 13.2761L2.308e-05 6.63808L6.63807 3.84663e-05L7.58563 0.947606L1.89516 6.63808L7.58563 12.3286L6.63807 13.2761Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0.94758 5.96828L41.4556 5.96829L41.4556 7.30835L0.94758 7.30834L0.94758 5.96828Z" fill="white"/>
+<rect x="125.164" y="1.45654" width="9.56667" height="9.56667" rx="4.78333" fill="white" fill-opacity="0.3"/>
+<rect x="98.0583" y="1.45654" width="9.56667" height="9.56667" rx="4.78333" fill="white" fill-opacity="0.3"/>
+<rect x="70.9528" y="1.4563" width="9.56667" height="9.56667" rx="4.78333" fill="white"/>
+</svg>
